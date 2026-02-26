@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_83260314961157106651ed853a1cabc7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_83260314961157106651ed853a1cabc7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_83260314961157106651ed853a1cabc7 = L.map(
+                "map_83260314961157106651ed853a1cabc7",
+                {
+                    center: [51.0447, -114.0719],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3a108ad75132ed534929250d04f15559 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3a108ad75132ed534929250d04f15559.addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var marker_e3c1c838b039f1b62004314839ffcd15 = L.marker(
+                [51.0419, -114.0637],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_e43a2dd5e062c76768d18b42f212853c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87f4a026d2c45dd9ac8a0bcce4b25cc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce79214b13c3406c8f6d02c6adf36b96 = $(`<div id="html_ce79214b13c3406c8f6d02c6adf36b96" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> Ten Foot Henry<br><b>Dirección:</b> 1209 1 St SW Calgary<br><b>Estatus:</b> Cliente<br></div>`)[0];
+                popup_87f4a026d2c45dd9ac8a0bcce4b25cc6.setContent(html_ce79214b13c3406c8f6d02c6adf36b96);
+            
+        
+
+        marker_e3c1c838b039f1b62004314839ffcd15.bindPopup(popup_87f4a026d2c45dd9ac8a0bcce4b25cc6)
+        ;
+
+        
+    
+    
+            marker_e3c1c838b039f1b62004314839ffcd15.bindTooltip(
+                `<div>
+                     Ten Foot Henry
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e3c1c838b039f1b62004314839ffcd15.setIcon(icon_e43a2dd5e062c76768d18b42f212853c);
+            
+    
+            var marker_55476817a03120a583cef503083d8183 = L.marker(
+                [51.0444, -114.0631],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_110a489c5936629f669c4fedc87feb30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfa6b95673ccf8844a0402f95c5b490a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0548b9f24b23ebe106fe81ca0eea8610 = $(`<div id="html_0548b9f24b23ebe106fe81ca0eea8610" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> CHARCUT Roast House<br><b>Dirección:</b> 899 Centre St S Calgary<br><b>Estatus:</b> Cliente<br></div>`)[0];
+                popup_bfa6b95673ccf8844a0402f95c5b490a.setContent(html_0548b9f24b23ebe106fe81ca0eea8610);
+            
+        
+
+        marker_55476817a03120a583cef503083d8183.bindPopup(popup_bfa6b95673ccf8844a0402f95c5b490a)
+        ;
+
+        
+    
+    
+            marker_55476817a03120a583cef503083d8183.bindTooltip(
+                `<div>
+                     CHARCUT Roast House
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_55476817a03120a583cef503083d8183.setIcon(icon_110a489c5936629f669c4fedc87feb30);
+            
+    
+            var marker_a36c8d0fd705eac2439222601d384d09 = L.marker(
+                [51.041, -114.0659],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_125269db0242b2b4ed8eee930d1b796f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02e20b77942cc7c2d756aed70e7fa4ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7da1a0cc23bb598d6a8eec7f8355d5e = $(`<div id="html_d7da1a0cc23bb598d6a8eec7f8355d5e" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> Native Tongues Taqueria<br><b>Dirección:</b> 235 12 Ave SW Calgary<br><b>Estatus:</b> Prospecto<br></div>`)[0];
+                popup_02e20b77942cc7c2d756aed70e7fa4ce.setContent(html_d7da1a0cc23bb598d6a8eec7f8355d5e);
+            
+        
+
+        marker_a36c8d0fd705eac2439222601d384d09.bindPopup(popup_02e20b77942cc7c2d756aed70e7fa4ce)
+        ;
+
+        
+    
+    
+            marker_a36c8d0fd705eac2439222601d384d09.bindTooltip(
+                `<div>
+                     Native Tongues Taqueria
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a36c8d0fd705eac2439222601d384d09.setIcon(icon_125269db0242b2b4ed8eee930d1b796f);
+            
+    
+            var marker_cd95f63850801b42221c6122753982b6 = L.marker(
+                [51.0371, -114.0702],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_de0e6b59c748a685755b116dee19b01b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac477df7464e2b84bed99dfc76ffaf52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d63ac6f07907f9147325e0ad3aacf8c3 = $(`<div id="html_d63ac6f07907f9147325e0ad3aacf8c3" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> Pigeonhole<br><b>Dirección:</b> 306 17 Ave SW Calgary<br><b>Estatus:</b> Cliente<br></div>`)[0];
+                popup_ac477df7464e2b84bed99dfc76ffaf52.setContent(html_d63ac6f07907f9147325e0ad3aacf8c3);
+            
+        
+
+        marker_cd95f63850801b42221c6122753982b6.bindPopup(popup_ac477df7464e2b84bed99dfc76ffaf52)
+        ;
+
+        
+    
+    
+            marker_cd95f63850801b42221c6122753982b6.bindTooltip(
+                `<div>
+                     Pigeonhole
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cd95f63850801b42221c6122753982b6.setIcon(icon_de0e6b59c748a685755b116dee19b01b);
+            
+    
+            var marker_6d1e08620c0b380313afec8e59f14427 = L.marker(
+                [51.0534, -114.0706],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_32729f1388fa2310f8e606f2ef52ab9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d20016d5d1e5628fa1158c2070895e83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbfdf357702f98acb91c292842d087fd = $(`<div id="html_dbfdf357702f98acb91c292842d087fd" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> River Café<br><b>Dirección:</b> 25 Prince's Island Park Calgary<br><b>Estatus:</b> Prospecto<br></div>`)[0];
+                popup_d20016d5d1e5628fa1158c2070895e83.setContent(html_dbfdf357702f98acb91c292842d087fd);
+            
+        
+
+        marker_6d1e08620c0b380313afec8e59f14427.bindPopup(popup_d20016d5d1e5628fa1158c2070895e83)
+        ;
+
+        
+    
+    
+            marker_6d1e08620c0b380313afec8e59f14427.bindTooltip(
+                `<div>
+                     River Café
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6d1e08620c0b380313afec8e59f14427.setIcon(icon_32729f1388fa2310f8e606f2ef52ab9f);
+            
+    
+            var marker_6413c719ad12a933e993d6590152902b = L.marker(
+                [51.0373, -114.0709],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_46687bec53c3fb0c1993b29126910655 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_def88797490de0286a89ada93ee0d036 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_797866bc730eaa23635c85fe2aa12656 = $(`<div id="html_797866bc730eaa23635c85fe2aa12656" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> Anju<br><b>Dirección:</b> 344 17 Ave SW Calgary<br><b>Estatus:</b> Cliente<br></div>`)[0];
+                popup_def88797490de0286a89ada93ee0d036.setContent(html_797866bc730eaa23635c85fe2aa12656);
+            
+        
+
+        marker_6413c719ad12a933e993d6590152902b.bindPopup(popup_def88797490de0286a89ada93ee0d036)
+        ;
+
+        
+    
+    
+            marker_6413c719ad12a933e993d6590152902b.bindTooltip(
+                `<div>
+                     Anju
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6413c719ad12a933e993d6590152902b.setIcon(icon_46687bec53c3fb0c1993b29126910655);
+            
+    
+            var marker_98de25d5c3366529c87aff3a46e0c6cf = L.marker(
+                [51.0372, -114.0705],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_934d827bb5dc2d3aa57f41a5f0176597 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_caebf3823d4cf4c4371082484804ae23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c305d8bfd6265fe4a394b85d6317423 = $(`<div id="html_6c305d8bfd6265fe4a394b85d6317423" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> Model Milk<br><b>Dirección:</b> 308 17 Ave SW Calgary<br><b>Estatus:</b> Prospecto<br></div>`)[0];
+                popup_caebf3823d4cf4c4371082484804ae23.setContent(html_6c305d8bfd6265fe4a394b85d6317423);
+            
+        
+
+        marker_98de25d5c3366529c87aff3a46e0c6cf.bindPopup(popup_caebf3823d4cf4c4371082484804ae23)
+        ;
+
+        
+    
+    
+            marker_98de25d5c3366529c87aff3a46e0c6cf.bindTooltip(
+                `<div>
+                     Model Milk
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_98de25d5c3366529c87aff3a46e0c6cf.setIcon(icon_934d827bb5dc2d3aa57f41a5f0176597);
+            
+    
+            var marker_efb0e584db5e54c1608e2949a14897d8 = L.marker(
+                [51.0494, -114.0695],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_2b33bb0dfd857757e8837074cd6e5ab3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14c2f2e4ef739b32863483a3ecc4ce1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4de685f7cb93181d870dff87d902fe5f = $(`<div id="html_4de685f7cb93181d870dff87d902fe5f" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> The Keg Steakhouse + Bar - 4th Ave<br><b>Dirección:</b> 320 4 Ave SW Calgary<br><b>Estatus:</b> Cliente<br></div>`)[0];
+                popup_14c2f2e4ef739b32863483a3ecc4ce1e.setContent(html_4de685f7cb93181d870dff87d902fe5f);
+            
+        
+
+        marker_efb0e584db5e54c1608e2949a14897d8.bindPopup(popup_14c2f2e4ef739b32863483a3ecc4ce1e)
+        ;
+
+        
+    
+    
+            marker_efb0e584db5e54c1608e2949a14897d8.bindTooltip(
+                `<div>
+                     The Keg Steakhouse + Bar - 4th Ave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_efb0e584db5e54c1608e2949a14897d8.setIcon(icon_2b33bb0dfd857757e8837074cd6e5ab3);
+            
+    
+            var marker_6eddaee2f9e9d06e843a2ba54e7dfe4f = L.marker(
+                [51.0547, -114.0414],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_50748e07f254d6bef80af193bcfbcb0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8cf039046491192256301b04fd8b5765 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aff1f1dc56feb7ed440efd83a6ed7ee9 = $(`<div id="html_aff1f1dc56feb7ed440efd83a6ed7ee9" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> OEB Breakfast Co. - Bridgeland<br><b>Dirección:</b> 825 1 Ave NE Calgary<br><b>Estatus:</b> Prospecto<br></div>`)[0];
+                popup_8cf039046491192256301b04fd8b5765.setContent(html_aff1f1dc56feb7ed440efd83a6ed7ee9);
+            
+        
+
+        marker_6eddaee2f9e9d06e843a2ba54e7dfe4f.bindPopup(popup_8cf039046491192256301b04fd8b5765)
+        ;
+
+        
+    
+    
+            marker_6eddaee2f9e9d06e843a2ba54e7dfe4f.bindTooltip(
+                `<div>
+                     OEB Breakfast Co. - Bridgeland
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6eddaee2f9e9d06e843a2ba54e7dfe4f.setIcon(icon_50748e07f254d6bef80af193bcfbcb0b);
+            
+    
+            var marker_c015ffe055ae667a6a1e972c7ff5ecf3 = L.marker(
+                [51.0378, -114.078],
+                {
+}
+            ).addTo(map_83260314961157106651ed853a1cabc7);
+        
+    
+            var icon_a7851822e27576edbefb40b485f6a426 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d4d4f4478fc2e5f261b6edeccbd3cc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36aae7df0e72fa130a41eabc6ce4063f = $(`<div id="html_36aae7df0e72fa130a41eabc6ce4063f" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> Una Pizza + Wine<br><b>Dirección:</b> 618 17 Ave SW Calgary<br><b>Estatus:</b> Prospecto<br></div>`)[0];
+                popup_6d4d4f4478fc2e5f261b6edeccbd3cc4.setContent(html_36aae7df0e72fa130a41eabc6ce4063f);
+            
+        
+
+        marker_c015ffe055ae667a6a1e972c7ff5ecf3.bindPopup(popup_6d4d4f4478fc2e5f261b6edeccbd3cc4)
+        ;
+
+        
+    
+    
+            marker_c015ffe055ae667a6a1e972c7ff5ecf3.bindTooltip(
+                `<div>
+                     Una Pizza + Wine
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c015ffe055ae667a6a1e972c7ff5ecf3.setIcon(icon_a7851822e27576edbefb40b485f6a426);
+            
+</script>
+</html>
